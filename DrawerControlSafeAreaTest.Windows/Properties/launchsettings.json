@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"DrawerControlSafeAreaTest.Windows (Unpackaged)": {
+			"commandName": "Project"
+		},
+		"DrawerControlSafeAreaTest.Windows (Package)": {
+			"commandName": "MsixPackage"
+		}
+	}
+}

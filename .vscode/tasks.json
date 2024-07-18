@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build DrawerControlSafeAreaTest.Mobile.csproj",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+          "build",
+          "DrawerControlSafeAreaTest.Mobile/DrawerControlSafeAreaTest.Mobile.csproj",
+          "-f:net8.0-android",
+          "-c:Debug",
+          "-r:android-arm64",
+          "-p:EmbedAssembliesIntoApk=true",
+          "-clp:NoSummary",
+          "-p:GenerateFullPaths=true",
+          "-p:UnoForceSingleTFM=true"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
