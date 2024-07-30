@@ -1,8 +1,12 @@
 {
     "folders": [
       {
+        "name": ".vscode",
+        "path": "../.vscode"
+      },
+      {
         "name": "DrawerControlSafeAreaTest.Mobile",
-        "path": "/DrawerControlSafeAreaTest.Mobile"
+        "path": "../DrawerControlSafeAreaTest.Mobile"
       },
       {
         "name": "DrawerControlSafeAreaTest",
