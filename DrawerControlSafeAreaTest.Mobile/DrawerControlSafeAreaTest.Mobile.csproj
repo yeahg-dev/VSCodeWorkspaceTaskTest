@@ -1,4 +1,4 @@
-<Project Sdk="Uno.Sdk">
+<Project>
   <PropertyGroup>
     <TargetFrameworks>$(DotNetVersion)-android;$(DotNetVersion)-ios</TargetFrameworks>
     <TargetFrameworks Condition="'$(OverrideTargetFramework)'!=''">$(OverrideTargetFramework)</TargetFrameworks>

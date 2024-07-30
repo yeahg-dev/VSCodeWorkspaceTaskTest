@@ -1,4 +1,4 @@
-<Project Sdk="Uno.Sdk">
+<Project>
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>$(DotNetVersion)-windows10.0.19041.0</TargetFramework>
