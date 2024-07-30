@@ -1,8 +1,12 @@
 {
     "folders": [
       {
-        "name": "Mobile",
-        "path": "DrawerControlSafeAreaTest.Mobile"
+        "name": "DrawerControlSafeAreaTest.Mobile",
+        "path": "/DrawerControlSafeAreaTest.Mobile"
+      },
+      {
+        "name": "DrawerControlSafeAreaTest",
+        "path": "../DrawerControlSafeAreaTest"
       }
     ]
     ,
