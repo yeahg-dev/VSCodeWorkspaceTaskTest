@@ -1,0 +1,28 @@
+{
+    "folders": [
+      {
+        "name": "Mobile",
+        "path": "DrawerControlSafeAreaTest.Mobile"
+      }
+    ]
+    ,
+    "launch": {
+      "version": "0.2.0",
+      "configurations": [
+        {
+          "name": "Launch Test with Custom Task",
+          "type": "Uno",
+          "request": "launch",
+          // this task is defined in .vscode/task.json
+          "preLaunchTask": "build Project"
+        },
+        {
+          "name": "Launch Test with Uno Platform Task",
+          "type": "Uno",
+          "request": "launch",
+          "preLaunchTask": "Uno: net7.0-android | Debug | android-x64"
+        },
+      ]
+    }
+}
+  
