@@ -4,13 +4,20 @@
   // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
   "version": "0.2.0",
   "configurations": [
-    
-
     {
       "name": "Launch in not workspace",
       "type": "Uno",
       "request": "launch",
-      "preLaunchTask": "build Project"
+      "preLaunchTask": "build DrawerControlSafeAreaTest.Mobile.csproj"
     },
+    {
+      "name": "Uno Platform Mobile",
+      "type": "Uno",
+      "request": "launch",
+      // any Uno* task will do, this is simply to satisfy vscode requirement when a launch.json is present
+      "preLaunchTask": "Uno: android | Debug | android-x64",
+      "console": "integratedTerminal",
+      "maxStringLength": 10000
+    }
   ]
 }
